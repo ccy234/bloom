@@ -3,7 +3,6 @@
 #include <string.h>
 
 #include "bloom.h"
-//#include <l7_nexus/l7antipolicy.h>
 
 #define SETBIT(a, n) (a[n/CHAR_BIT] |= (1<<(n%CHAR_BIT)))
 #define GETBIT(a, n) (a[n/CHAR_BIT] & (1<<(n%CHAR_BIT)))
